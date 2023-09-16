@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  font-family: 'Muller-Regular', 'Inter', 'Segoe UI', 'Roboto', 'Calibri', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  margin-bottom: 132px;
+  height: 100px;
+  box-shadow: 0px 3px 14px 1.5px rgba(152, 152, 152, 0.2);
+}
+
+.header__inner {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+  height: 100%;
+  display: flex;
+  gap: 250px;
+}
+
+.header__logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__logo img {
+  width: 68px;
+  height: 68px;
+}
+
+.header__logo>div>span {
+  display: block;
+  font-family: 'Muller-Black', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #ffc468;
+  text-transform: uppercase;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__menu-list.header__menu-list-block {
+  display: block;
+}
+
+.header__menu-link {
+  color: #a46b00;
+}
+
+.header__menu-link:hover {
+  text-shadow:0 0 15px #a46b00;
+}
+
+.header__menu-burger {
+  display: none;
+	cursor: pointer;
+}
+
+.main {
+  margin: 0 auto 160px;
+  padding: 0 20px;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 62px;
+}
+
+.main__heading-top, .main__heading-bottom {
+  font-family: 'Muller-ExtraBold', sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 45px;
+  color: #ba9150;
+}
+
+.main__heading-bottom {
+  margin-bottom: 60px;  
+  color: #ffaf18;
+}
+
+.main__description-list {
+  columns: 2;
+  column-gap: 47px;
+  margin-bottom: 60px;
+}
+
+.main__description-item {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.main__description-item:nth-child(odd) {
+  margin-bottom: 47px;
+}
+
+.main__description-item>img {
+  width: 60px;
+  height: 60px;
+}
+
+.main__description-heading {
+  margin-bottom: 9px;
+  font-family: 'Muller-ExtraBold', sans-serif;
+  font-weight: 800;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #ffaf18;
+  text-transform: uppercase;
+}
+
+.main__description-text {
+  line-height: 16px;
+  color: #b99150;
+}
+
+.main__choose-btn {
+  padding: 22px 53px;
+  font-family: 'Muller-Bold', sans-serif;
+  font-weight: 600;
+  color: #382400;
+  border: none;
+  background-color: #ffaf18;
+  cursor: pointer;
+  transition: .5s;
+  will-change: transform;
+}
+
+.main__choose-btn:hover {
+  transform: scale(1.1);
+}
+
+.main__img {
+  width: 100%;
+  text-align: center;
+}
+
+.pizza-list {
+  margin: 0 auto 177px;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+.pizza-list__heading {
+  margin-bottom: 60px;
+  font-family: 'Muller-Bold', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  color: #bd985c;
+  text-align: center;
+}
+
+.pizza-list__inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.pizza-item {
+  max-width: 282px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+  text-align: center;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.pizza-item:hover {
+  box-shadow: 0px 0px 5px 1px #ffaf18;
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+
+.pizza-item__img {
+  height: 194px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-item__desc {
+  flex-grow: 1;
+  padding: 0 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pizza-item__heading {
+  margin-bottom: 13px;
+  font-family: 'Muller-Bold', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #382400;
+}
+
+.pizza-item__composition {
+  font-size: 14px;
+  color: #181a1a;
+}
+
+.pizza-item__btn {
+  padding: 17px 82px;
+  border: none;
+  font-family: 'Muller-Bold', sans-serif;
+  font-weight: 600;
+  color: #020303;
+  background-color: #ffaf18;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pizza-item__btn:hover {
+  color: #fff;
+}
+
+.footer {
+  margin: 0 auto 105px;
+  padding: 0 20px;
+  max-width: 1240px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.footer__info {
+  max-width: 390px;
+  margin-right: 130px;
+}
+
+.footer__heading-top, .footer__heading-bottom {
+  font-family: 'Muller-ExtraBold', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffaf18;
+}
+
+.footer__heading-bottom {
+  margin-bottom: 70px;
+  color: #b99150;
+}
+
+.footer__text {
+  color: #b99150;
+}
+
+.footer__form {
+  margin-right: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__input {
+  padding: 0 24px;
+  width: 330px;
+  height: 60px;
+  border: solid 1px #b99150;
+  font-size: 18px;
+  color: #cba86e;
+  outline: none;
+}
+
+.footer__input-error {
+  border: solid 2px red;
+}
+
+.footer__input::placeholder {
+  color: #cba86e;
+}
+
+.footer__input-error::placeholder {
+  color: red;
+}
+
+.footer__btn {
+  border: none;
+  width: 330px;
+  height: 60px;
+  background-color: #ffaf18;
+  font-family: 'Muller-Bold', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer__btn:hover {
+  color: #fff
+}
+
+.footer__img {
+  background-image: url(../img/piece-pizza.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: -30px;
+  right: -128px;
+  width: 410px;
+  height: 445px;
+  z-index: -1;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-hidden {
+  display: none;
+}
+
+.popup__inner {
+  padding: 50px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #ffaf18;
+  position: relative;
+}
+
+.popup__close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/fonts.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/media-query.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js" defer></script>
+	<script src="./js/script.js" defer></script>
+	<script src="./js/glightbox.js" defer></script>
+	<title>Pizza Cheff</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__inner">
+
+			<a href="#" class="header__logo">
+				<img src="./img/logo.png" alt="Логотип">
+				<div>
+					<span>Pizza</span>
+					<span>Cheff</span>
+				</div>
+			</a>
+
+			<div class="header__menu-burger">
+				<img src="./img/menu.svg" alt="Меню">
+			</div>
+
+			<ul class="header__menu-list">
+				<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Пиццы</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Напитки</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Доставка и оплата</a>
+				</li>
+				<li class="header__menu-item">
+					<a href="#" class="header__menu-link">Контакты</a>
+				</li>
+			</ul>
+
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="main__info">
+			<h1 class="main__heading-top">Самая вкусная пицца в мире</h1>
+			<p class="main__heading-bottom">только в Pizza Cheff</p>
+
+			<ul class="main__description-list">
+				<li class="main__description-item">
+					<img src="./img/cereal.svg" alt="Злак">
+					<div>
+						<h4 class="main__description-heading">Лучшее тесто</h4>
+						<p class="main__description-text">Мы создаем тесто только из отборной итальянской муки наивысшего качества</p>
+					</div>
+				</li>
+				<li class="main__description-item">
+					<img src="./img/guarantee.svg" alt="Гарантия">
+					<div>
+						<h4 class="main__description-heading">Гарантия качества</h4>
+						<p class="main__description-text">Наша пиццерия получила множество наград и признаний по всему миру</p>
+					</div>
+				</li>
+				<li class="main__description-item">
+					<img src="./img/cap.svg" alt="Колпак">
+					<div>
+						<h4 class="main__description-heading">Лучшие повара</h4>
+						<p class="main__description-text">Пиццы готовят самые профессиональные итальянские повара</p>
+					</div>
+				</li>
+				<li class="main__description-item">
+					<img src="./img/recipe.svg" alt="Рецепт">
+					<div>
+						<h4 class="main__description-heading">Отборные рецепты</h4>
+						<p class="main__description-text">Мы используем рецепты от мировых лидеров в изготовлении пиццы</p>
+					</div>
+				</li>
+			</ul>
+
+			<button class="main__choose-btn">Выбрать пиццу</button>
+		</div>
+
+		<div class="main__img">
+			<img src="./img/pizza_big.png" alt="Большая пицца">
+		</div>
+	</main>
+
+	<section class="pizza-list">
+		<h3 class="pizza-list__heading">Выберите свою любимую пиццу</h3>
+
+		<div class="pizza-list__inner">
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza1.png" class="glightbox">
+						<img src="./img/pizza1.png" alt="Мясная делюкс">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Мясная Делюкс</h4>
+						<p class="pizza-item__composition">Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza2.png" class="glightbox">
+						<img src="./img/pizza2.png" alt="Морская Премиум">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Морская Премиум</h4>
+						<p class="pizza-item__composition">Перец, сыр, креветки, кальмары, мидии, лосось</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza3.png" class="glightbox">
+						<img src="./img/pizza3.png" alt="Бекон и Сосиски">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Бекон и Сосиски</h4>
+						<p class="pizza-item__composition">Бекон, сыр, сосиски, ананас, томатная паста</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza4.png" class="glightbox">
+						<img src="./img/pizza4.png" alt="Куриная Делюкс">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Куриная Делюкс</h4>
+						<p class="pizza-item__composition">Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza5.png" class="glightbox">
+						<img src="./img/pizza5.png" alt="Барбекю Премиум">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Барбекю Премиум</h4>
+						<p class="pizza-item__composition">Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza6.png" class="glightbox">
+						<img src="./img/pizza6.png" alt="Пепперони Дабл">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Пепперони Дабл</h4>
+						<p class="pizza-item__composition">Пепперони, сыр, колбаса 2 видов: обжаренная и вареная</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza7.png" class="glightbox">
+						<img src="./img/pizza7.png" alt="Куриное трио">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Куриное трио</h4>
+						<p class="pizza-item__composition">Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для пиццы</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+			<div class="pizza-item">
+				<div class="pizza-item__img">
+					<a href="./img/pizza8.png" class="glightbox">
+						<img src="./img/pizza8.png" alt="Сырная">
+					</a>
+				</div>
+				<div class="pizza-item__desc">
+					<div>
+						<h4 class="pizza-item__heading">Сырная</h4>
+						<p class="pizza-item__composition">Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный</p>
+					</div>
+					<button class="pizza-item__btn">В корзину</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__info">
+			<h3 class="footer__heading-top">
+				Хватит думать! 
+			</h3>
+			<p class="footer__heading-bottom">Доставим заказ за 30 минут!</p>
+			<p class="footer__text">
+				Мы  гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!
+			</p>
+		</div>
+
+		<form class="footer__form">
+			<input class="footer__input" type="text" id="inputName" placeholder="Ваше имя">
+			<input class="footer__input" type="text" id="inputAddress" placeholder="Адрес доставки">
+			<input class="footer__input" type="tel" id="inputPhone" placeholder="Телефон">
+			<button class="footer__btn">Оформить заказ</button>
+		</form>
+
+		<div class="footer__img"></div>
+	</footer>
+
+	<div class="popup-hidden popup">
+		<div class="popup__inner">
+			<div class="popup__close">
+				<img src="./img/cancel.svg" alt="Закрыть">
+			</div>
+			Спасибо за заказ!
+		</div>
+	</div>
+</body>
+</html>
